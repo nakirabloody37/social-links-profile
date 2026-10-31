@@ -1,11 +1,12 @@
 /*sec DESIGN FRAMEWORK */
 :root {
   /* sys COLORS */
-  --primary-color: #f4d04e;
+  --primary-color: #c5f82a;
 
   /* . Greys */
-  --grey-1: #6b6b6b;
-  --grey-2: #121212;
+  --grey-1: #333333;
+  --grey-2: #1f1f1f;
+  --grey-3: #141414;
 
   /* sys Font Sizes */
 
@@ -55,6 +56,6 @@ body {
   place-items: center;
   min-height: 100vh;
 
-  font-family: "Figtree", sans-serif;
-  background-color: var(--primary-color);
+  font-family: "Inter", sans-serif;
+  /* background-color: var(--primary-color); */
 }
