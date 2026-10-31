@@ -61,12 +61,6 @@ body {
   background-color: var(--grey-3);
 }
 
-a:any-link {
-  display: inline-block;
-  color: inherit;
-  text-decoration: none;
-}
-
 /*sec SOCIAL LINKS PROFILE */
 
 .social-links-profile {
@@ -74,9 +68,11 @@ a:any-link {
   flex-direction: column;
   align-items: center;
 
-  width: calc(500rem / 16);
-  height: calc(700rem / 16);
   background-color: var(--grey-2);
+  border-radius: 15px;
+  padding: var(--space-12);
+  width: 100%;
+  max-width: calc(550rem / 16);
 }
 
 .profile-picture {
@@ -89,32 +85,56 @@ a:any-link {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: var(--space-1);
+  gap: var(--space-2);
+
   margin-bottom: var(--space-12);
+}
+
+.heading-primary {
+  font-weight: 600;
+}
+
+.place {
+  color: var(--primary-color);
+  font-weight: 600;
 }
 
 .profile-description {
   font-size: var(--text-3p2);
-  margin-bottom: var(--space-12);
+  margin-bottom: var(--space-8);
+}
+
+.social-links {
+  align-self: stretch;
 }
 
 .social-links-list {
   display: flex;
   flex-direction: column;
   gap: var(--space-5);
+
   list-style: none;
 }
 
 .social-links-list li {
-  background-color: var(--grey-1);
+  text-align: center;
 }
 
 .social-link:link,
 .social-link:visited {
+  display: block;
+  font-size: var(--text-4p2);
+  font-weight: 700;
+  color: inherit;
+  text-decoration: none;
+  padding: var(--space-4) var(--space-12);
+  background-color: var(--grey-1);
+  border-radius: 9px;
+  transition: all 300ms;
 }
 
-/*sec FOOTER */
-
-.attribution {
-  display: flex;
+.social-link:hover,
+.social-link:active {
+  color: var(--grey-1);
+  background-color: var(--primary-color);
 }
