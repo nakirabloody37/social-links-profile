@@ -72,7 +72,7 @@ body {
   border-radius: 15px;
   padding: var(--space-12);
   width: 100%;
-  max-width: calc(550rem / 16);
+  max-width: calc(470rem / 16);
 }
 
 .profile-picture {
