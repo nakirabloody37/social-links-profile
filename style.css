@@ -57,5 +57,29 @@ body {
   min-height: 100vh;
 
   font-family: "Inter", sans-serif;
-  /* background-color: var(--primary-color); */
+  background-color: var(--grey-3);
+}
+
+/*sec SOCIAL LINKS PROFILE */
+
+.social-links-profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  max-width: calc(350rem / 16);
+  height: calc(700rem / 16);
+  background-color: #6f6f6f;
+}
+
+.profile-picture {
+  height: var(--space-12);
+  border-radius: 50%;
+}
+
+/*sec FOOTER */
+
+.attribution {
+  color: #fff;
+  display: flex;
 }
