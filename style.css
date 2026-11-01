@@ -143,3 +143,14 @@ body {
   color: var(--grey-1);
   background-color: var(--primary-color);
 }
+
+@media (max-width: 31.25em) {
+  html {
+    font-size: 81.25%;
+  }
+
+  .social-links-profile {
+    max-width: calc(350rem / 16);
+    padding: var(--space-8) var(--space-5);
+  }
+}
